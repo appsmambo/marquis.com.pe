@@ -17,7 +17,7 @@
 		<meta name="description" content="Descubre la nueva colección Otoño-Invierno 2015 de Marquis.">
 		<meta property="og:description" content="Descubre la nueva colección Otoño-Invierno 2015 de Marquis.">
 		<meta property="og:url" content="{{url()}}/">
-		<meta property="og:image" content="{{ url() }}/public/images/compartir.jpg">
+		<meta property="og:image" content="{{ url() }}/public/images/compartir.png">
 		<meta property="fb:admins" content="100008010128050">
 		{{ HTML::script('public/js/queryloader2.js'); }}
 		{{ HTML::script('public/js/modernizr.js'); }}
@@ -80,6 +80,11 @@
 				</div>
 				<div class="submenu" style="display:none">
 					<ul>
+						<li>
+							<a href="{{url()}}/inicio">
+								INICIO
+							</a>
+						</li>
 						<li>
 							<a href="{{url()}}/comercial">
 								COMERCIAL

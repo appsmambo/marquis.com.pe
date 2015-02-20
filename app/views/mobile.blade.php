@@ -17,11 +17,10 @@
 		<meta name="description" content="Descubre la nueva colección Otoño-Invierno 2015 de Marquis.">
 		<meta property="og:description" content="Descubre la nueva colección Otoño-Invierno 2015 de Marquis.">
 		<meta property="og:url" content="{{url()}}/">
-		<meta property="og:image" content="{{ url() }}/public/images/compartir.jpg">
+		<meta property="og:image" content="{{ url() }}/public/images/compartir.png">
 		<meta property="fb:admins" content="100008010128050">
 		{{ HTML::script('public/js/queryloader2.js'); }}
 		{{ HTML::script('public/js/modernizr.js'); }}
-		{{ HTML::style('public/css/video-background.css'); }}
 		{{ HTML::style('public/css/bootstrap.min.css'); }}
 		{{ HTML::style('public/css/fancybox/jquery.fancybox.css'); }}
 		{{ HTML::style('public/css/mobile.css'); }}
@@ -41,8 +40,6 @@
 			});
 		</script>
 		{{ HTML::script('public/js/jquery-1.11.1.min.js'); }}
-		{{ HTML::script('public/js/swfobject.js'); }}
-		{{ HTML::script('public/js/jquery.video-background.js'); }}
 		{{ HTML::script('public/js/jquery.validate.min.js'); }}
 		{{ HTML::script('public/js/jquery.blockUI.js'); }}
 		{{ HTML::script('public/js/responsive-carousel.js'); }}
@@ -76,6 +73,11 @@
 				</div>
 				<div class="submenu" style="display:none">
 					<ul>
+						<li>
+							<a href="{{url()}}/inicio">
+								INICIO
+							</a>
+						</li>
 						<li>
 							<a href="{{url()}}/comercial">
 								COMERCIAL
@@ -181,7 +183,7 @@
 						<div class="content-a">
 							<div class="content-b">
 								<div class="row">
-									<div class="col-xs-offset-6 col-xs-5">
+									<div class="col-xs-offset-7 col-xs-4">
 										<img src="{{url()}}/public/images/productos/Falda-Midi.jpg" alt="" class="img-responsive center-block">
 									</div>
 								</div>
@@ -192,7 +194,7 @@
 						<div class="content-a">
 							<div class="content-b">
 								<div class="row">
-									<div class="col-xs-offset-6 col-xs-5">
+									<div class="col-xs-offset-7 col-xs-4">
 										<img src="{{url()}}/public/images/productos/Blazer-Kari.jpg" alt="" class="img-responsive center-block">
 									</div>
 								</div>
@@ -203,7 +205,7 @@
 						<div class="content-a">
 							<div class="content-b">
 								<div class="row">
-									<div class="col-xs-offset-6 col-xs-5">
+									<div class="col-xs-offset-7 col-xs-4">
 										<img src="{{url()}}/public/images/productos/Casaca-Biker.jpg" alt="" class="img-responsive center-block">
 									</div>
 								</div>
@@ -214,7 +216,7 @@
 						<div class="content-a">
 							<div class="content-b">
 								<div class="row">
-									<div class="col-xs-offset-6 col-xs-5">
+									<div class="col-xs-offset-7 col-xs-4">
 										<img src="{{url()}}/public/images/productos/Abrigo-Caro.jpg" alt="" class="img-responsive center-block">
 									</div>
 								</div>
@@ -225,7 +227,7 @@
 						<div class="content-a">
 							<div class="content-b">
 								<div class="row">
-									<div class="col-xs-offset-6 col-xs-5">
+									<div class="col-xs-offset-7 col-xs-4">
 										<img src="{{url()}}/public/images/productos/Jean-Boy.jpg" alt="" class="img-responsive center-block">
 									</div>
 								</div>
@@ -236,7 +238,7 @@
 						<div class="content-a">
 							<div class="content-b">
 								<div class="row">
-									<div class="col-xs-offset-6 col-xs-5">
+									<div class="col-xs-offset-7 col-xs-4">
 										<img src="{{url()}}/public/images/productos/Chompa-Window.jpg" alt="" class="img-responsive center-block">
 									</div>
 								</div>
@@ -247,19 +249,23 @@
 						<div class="content-a">
 							<div class="content-b">	
 								<div class="row">
-									<div class="col-xs-offset-4 col-xs-6">
+									<div class="col-xs-offset-2 col-xs-4">
 										<p class="contenedor-info">
 											<a class="comercial" href="#">
 												<img src="{{url()}}/public/images/boton-comercial.jpg" alt="" class="img-responsive">
 											</a>
+											<a class="registro" href="#">
+												<img src="{{url()}}/public/images/boton-registrate.jpg" alt="" class="img-responsive">
+											</a>
+										</p>
+									</div>
+									<div class="col-xs-4">
+										<p class="contenedor-info">
 											<a class="makingoff" href="#">
 												<img src="{{url()}}/public/images/boton-makingoff.jpg" alt="" class="img-responsive">
 											</a>
 											<a class="catalogo" href="http://issuu.com/ripleyperu/docs/revista_marquis_6" target="_blank">
 												<img src="{{url()}}/public/images/boton-catalogo.jpg" alt="" class="img-responsive">
-											</a>
-											<a class="registro" href="#">
-												<img src="{{url()}}/public/images/boton-registrate.jpg" alt="" class="img-responsive">
 											</a>
 										</p>
 									</div>

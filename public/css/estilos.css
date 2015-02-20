@@ -402,7 +402,7 @@ footer img {
 	cursor:pointer
 }
 .contenedor-info {
-	
+	z-index:10
 }
 .contenedor-info a {
 	display:block;

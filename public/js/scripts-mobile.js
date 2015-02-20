@@ -114,12 +114,12 @@ function carouselStateChanged() {
 	}
 }
 $(document).ready(function () {
-	videoComercial = $('body').videoBG({
+	/*videoComercial = $('body').videoBG({
 		youtube:"iC_4iVpO3wQ",
 		videoVolume:0.5,
 		autoplay:false
 	});
-	/*videoLookbook = $('body').videoBG({
+	videoLookbook = $('body').videoBG({
 		youtube:"iC_4iVpO3wQ",
 		videoVolume:0.5,
 		autoplay:false
@@ -140,6 +140,9 @@ $(document).ready(function () {
 		e.preventDefault();
 		pagina = $(this).attr('href');
 		switch(pagina) {
+			case urlBase+'/inicio':
+				carousel.showPage(1);
+				break;
 			case urlBase+'/comercial':
 				carousel.showPage(2);
 				break;
@@ -160,10 +163,10 @@ $(document).ready(function () {
 	});
 	$('.play').click(function(event) {
 		event.preventDefault();
-		videoComercial.videoBgRewind();
+		//videoComercial.videoBgRewind();
 		$('#wrapper').fadeOut('slow', function() {
 			$('footer, header').fadeOut();
-			videoComercial.videoBgPlay();
+			//videoComercial.videoBgPlay();
 			$('.control-video').fadeIn('fast');
 		});
 	});
@@ -178,8 +181,8 @@ $(document).ready(function () {
 	$('.cerrar').click(function(event) {
 		event.preventDefault();
 		$('.control-video').fadeOut('fast');
-		videoComercial.videoBgRewind();
-		videoComercial.videoBgPause();
+		//videoComercial.videoBgRewind();
+		//videoComercial.videoBgPause();
 		//videoLookbook.videoBgRewind();
 		//videoLookbook.videoBgPause();
 		$('#wrapper').fadeIn('fast', function() {
@@ -209,7 +212,7 @@ $(document).ready(function () {
 			wrapCSS:'blanco',
 			allowfullscreen:'true',
 			type:'iframe',
-			href:'http://www.youtube.com/embed/HUVu9iQeUmE?autoplay=1&rel=0'
+			href:'http://www.youtube.com/embed/H2HMBYntwUc?autoplay=1&rel=0'
 		});
 	});
 	/*$('.catalogo').click(function(e) {

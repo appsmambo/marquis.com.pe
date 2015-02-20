@@ -145,6 +145,9 @@ $(document).ready(function () {
 		e.preventDefault();
 		pagina = $(this).attr('href');
 		switch(pagina) {
+			case urlBase+'/inicio':
+				carousel.showPage(1);
+				break;
 			case urlBase+'/comercial':
 				carousel.showPage(2);
 				break;
@@ -219,7 +222,7 @@ $(document).ready(function () {
 			wrapCSS:'blanco',
 			allowfullscreen:'true',
 			type:'iframe',
-			href:'http://www.youtube.com/embed/HUVu9iQeUmE?autoplay=1&rel=0'
+			href:'http://www.youtube.com/embed/H2HMBYntwUc?autoplay=1&rel=0'
 		});
 	});
 	$('.catalogo').click(function(e) {
