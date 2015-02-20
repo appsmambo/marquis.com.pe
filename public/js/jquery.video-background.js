@@ -535,7 +535,7 @@
 					}
 					
 					if (this.opt.overlayImage) {
-						this.videoOverlay.css("background-image", "url("+this.opt.overlay+")");
+						this.videoOverlay.css("background-image", "url("+this.opt.overlayImage+")");
 					}
 					
 					this.videoOverlay.css("opacity", this.opt.overlayOpacity).appendTo(this.videoHolder);

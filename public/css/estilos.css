@@ -36,6 +36,9 @@ body, #wrapper {
 	margin: 0;
 	padding: 0
 }
+video {
+	background-color:#000
+}
 p {
 	white-space:normal
 }

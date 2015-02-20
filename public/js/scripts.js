@@ -117,7 +117,8 @@ $(document).ready(function () {
 	videoComercial = $('body').videoBG({
 		mp4:urlBase+"/video/comercial.mp4",
 		videoVolume:0.5,
-		autoplay:false
+		autoplay:false,
+		overlayImage:urlBase+'/public/images/overlay.png'
 	});
 	/*videoLookbook = $('body').videoBG({
 		youtube:"iC_4iVpO3wQ",
