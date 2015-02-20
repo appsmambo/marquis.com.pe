@@ -1,0 +1,8 @@
+.contenedor-info {
+	width:180px
+}
+.blanco .fancybox-close {
+	top:15px!important;
+	right:15px!important;
+	z-index:9999
+}
