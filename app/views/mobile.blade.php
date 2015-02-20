@@ -24,7 +24,6 @@
 		{{ HTML::style('public/css/video-background.css'); }}
 		{{ HTML::style('public/css/bootstrap.min.css'); }}
 		{{ HTML::style('public/css/fancybox/jquery.fancybox.css'); }}
-		{{ HTML::style('public/css/estilos.css'); }}
 		{{ HTML::style('public/css/mobile.css'); }}
 		<script>
 			var urlBase = '{{url()}}';
